@@ -1,0 +1,203 @@
+
+
+clean install sonar:sonar -Dmaven.test.skip=true -Dsonar.analysis.mode=publish --fail-never
+
+
+--fail-never
+
+To mirrior a Git Repo
+
+git remote add -f ActiveMQ  https://github.com/shubham-solanki/my-openmrs-core.git
+git push  ActiveMQ --mirror 
+
+
+
+
+git remote add -f ApacheAmbari https://github.com/cttestid41/Apache_Ambari.git
+git push  ApacheAmbari --mirror 
+
+
+
+hadoop
+git remote add -f Apachehadoop https://github.com/cttestid41/Apache_Hadoop.git
+git push  Apachehadoop --mirror 
+
+
+hadoop hdfs
+git remote add -f Apachehadoophdfs https://github.com/cttestid41/ApacheHadoop_HDFS.git
+git push  Apachehadoophdfs --mirror 
+
+
+apache hive
+git remote add -f ApacheHive https://github.com/cttestid41/Apache_Hive.git
+git push  ApacheHive --mirror 
+
+apache cloudstack
+git remote add -f ApacheCloudStack https://github.com/cttestid41/Apache_Cloudstack.git
+git push  ApacheCloudStack  --mirror
+
+
+Apache flink
+git remote add -f Apacheflink https://github.com/cttestid41/Apache_Flink.git
+git push  Apacheflink --mirror
+
+
+
+Apache Storm
+git remote add -f ApacheStorm https://github.com/cttestid41/Apache_Storm.git
+git push  ApacheStorm --mirror
+
+
+
+Apache OpenNLP
+git remote add -f ApacheOpenNLP https://github.com/cttestid41/Apache_OpenNLP.git
+git push  ApacheOpenNLP --mirror
+
+
+Apache ignite
+git remote add -f ApacheIgnite https://github.com/cttestid41/Apache_Ignite.git
+git push  ApacheIgnite --mirror
+
+
+
+
+
+ Apache Johnzon
+git remote add -f ApacheJohnzon https://github.com/cttestid41/-Apache_Johnzon.git
+git push  ApacheJohnzon --mirror
+
+
+Apache nifi
+git remote add -f Apachenifi https://github.com/cttestid41/Apache_nifi.git
+git push  Apachenifi  --mirror
+
+
+
+
+
+
+
+
+Apache nifi
+git remote add -f ApacheMalhar https://github.com/cttestid41/Apache_Malhar.git
+git push  ApacheMalhar --mirror
+
+
+Apache Camel
+git remote add -f ApacheCamel https://github.com/cttestid41/Apache_Camel.git
+git push  ApacheCamel --mirror
+
+
+
+
+0000000000000000000000000000000000
+
+17 Aug 2017
+
+Apache Zeppelin
+git remote add -f ApacheZeppelin https://github.com/cttestid41/Apache_Zeppelin.git
+git push  ApacheZeppelin --mirror
+
+
+
+
+Apache Beam
+git remote add -f ApacheBeam https://github.com/cttestid41/Apache_Beam.git
+git push  ApacheBeam  --mirror
+
+Apache maven
+git remote add -f ApacheMaven https://github.com/cttestid41/Apache_Maven.git
+git push  ApacheMaven  --mirror
+
+
+
+
+Apache Hbase
+git remote add -f ApacheHbase https://github.com/cttestid41/Apache_Hbase.git
+git push  ApacheHbase  --mirror
+
+
+
+
+apache hive
+git remote add -f ApacheHive https://github.com/cttestid41/Apache_Hive.git
+git push  ApacheHive --mirror 
+
+
+
+
+
+apache zookeeper
+git remote add -f ApacheZookeeper https://github.com/cttestid41/Apache_Zookeeper.git
+git push  ApacheZookeeper  --mirror 
+
+
+
+
+
+apache Helix 
+git remote add -f ApacheHelix https://github.com/cttestid41/Apache_Helix.git
+git push  ApacheHelix  --mirror 
+
+
+
+apache Phoenix  
+git remote add -f ApachePhoenix https://github.com/cttestid41/Apache_phoenix.git
+git push  ApachePhoenix  --mirror 
+
+
+Apache Spark
+git remote add -f Apacehspark https://github.com/cttestid41/Apache_Spark.git
+git push  Apacehspark --mirror 
+
+
+
+
+
+Apache Tez
+git remote add -f ApacheTez https://github.com/cttestid41/Apache_Tez.git
+git push  ApacheTez --mirror 
+
+
+Apache Velocity
+git remote add -f ApacheVelocity https://github.com/cttestid41/Apache_Velocity.git
+git push  ApacheVelocity --mirror 
+
+
+Apache Flume
+
+git remote add -f ApacheFlume https://github.com/cttestid41/Apache_Flume.git
+git push  ApacheFlume  --mirror 
+
+
+
+
+Apache_Tejo
+git remote add -f ApacheTejo https://github.com/cttestid41/Apache_Tejo.git
+git push  ApacheTejo --mirror 
+
+
+
+
+
+
+cd existing_folder
+git init
+git remote add origin http://192.168.62.9/root/Maverick.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+http://192.168.62.9/root/MaverickHandler.git
+
+
+
+  git remote add origin https://172.50.34.113/Richard/Maverick.git
+git push -u origin master
+
+echo "# Maverick" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin http://172.50.34.113/Richard/Maverick.git
+git push  -u origin master
